@@ -86,12 +86,10 @@ nav {
     width: 100%;
 }
 .pgtitle {
-    /* background-color: Orange; */
     position: absolute;
     bottom: 0;
 }
 .pgcite {
-    /* background-color: RoyalBlue; */
     position: absolute;
     font-style: normal;
 }
@@ -147,12 +145,10 @@ input[type="text"] {
     border: 2px #EEEEEE solid;
     height: 44px;
     width: 640px;
-    /*box-shadow: 0 1px 5px 0 rgba(32, 33, 36, .28);*/
     border-radius: 22px;
     box-sizing: border-box;
     font-size: 16px;
     transition: none;
-    /*border-color: #eeeeee2a;*/
 }
 input[type="text"]:focus,
 input[type="text"]:hover {
