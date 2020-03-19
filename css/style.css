@@ -4,7 +4,7 @@ body {
     font-size: 14px;
     font-family: arial, sans-serif;
 }
-a, a:active, a:link, a:visited {
+a {
     text-decoration: none;
 }
 a:hover {
@@ -14,7 +14,7 @@ ul {
     list-style-type: none;
 }
 main {
-    margin-left: 150px;
+    margin: 0 0 30px 170px;
 }
 h1.logo {
     margin-top: 7px;
@@ -30,29 +30,51 @@ header {
     margin: 0 0 0 auto;
     border-radius: 4px;
     background: rgb(26, 115, 232);
-    border: 1px solid rgb(26, 115, 232);
-    padding: 7px 25px;
-    height: 35px;
+    padding: 10px 25px;
+    color: #ffffff;
 }
 .button:hover {
     text-decoration: none;
 }
-.button:link,
-.button:hover,
-.button:visited {
-    color:#ffffff;
+.pcaret {
+    display: flex;
+}
+.fa-caret-down {
+    margin: 1px 0 0 7px;
+}
+.fa-search {
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    color: #4285F4;
+    font-size: 120%;
+}
+.form-container {
+    position: relative;
+    margin-left: 27px;
+}
+input[type="text"] {
+    padding: 11px 11px 11px 25px;
+    border: 2px #eeeeee solid;
+    width: 640px;
+    border-radius: 22px;
+    font-size: 16px;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    box-shadow: 0 2px 5px 0 rgba(60, 63, 67, 0.18);
+}
+:focus {
+    outline: none;
 }
 .wrp {
     width: 600px;
     margin-bottom: 27px;
 }
-.pgcite a, 
-.pgcite a:active,
-.pgcite a:link,
-.pgcite a:visited {
+.psml a {
     color: #3C4043
 }
-.pgcite a:hover {
+.psml a:hover {
     text-decoration: none;
 }
 h2 {
@@ -71,44 +93,17 @@ h2.h2bottom {
 .s-bottom-flex {
     display: flex;
 }
-.s-bottom-flex ul:last-of-type {
-    margin-left: 32px;
+.s-bottom-flex ul:first-of-type {
+    margin-right: 32px;
 }
 .s-bottom-ul li {
     padding:3px 0;
 }
-.fa-search {
-    position: absolute;
-    top: 15px;
-    left: 600px;
-    color: #4285F4;
-    font-size: 120%;
-}
-.form-container {
-    position: relative;
-    margin-left: 27px;
-}
-input[type="text"] {
-    padding-left: 25px;
-    border: 2px #eeeeee solid;
-    height: 44px;
-    width: 640px;
-    border-radius: 22px;
-    font-size: 16px;
-}
-input[type="text"]:focus,
-input[type="text"]:hover {
-    box-shadow: 0 2px 5px 0 rgba(60, 63, 67, 0.18);
-}
-:focus {
-    outline: none;
-}
 footer {
-    padding-left: 150px;
+    padding-left: 170px;
     background: #f2f2f2;
     line-height: 40px;
     border-top: 1px solid #e4e4e4;
-    margin-top: 30px;
 }
 .foot-list {
     display: flex;
