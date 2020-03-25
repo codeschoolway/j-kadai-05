@@ -67,7 +67,7 @@ input[type="text"]:hover {
 :focus {
     outline: none;
 }
-.wrp {
+section {
     width: 600px;
     margin-bottom: 27px;
 }
