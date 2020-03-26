@@ -28,7 +28,7 @@ header {
     margin: 20px 28px 40px 20px;
 }
 .button {
-    margin: 0 0 0 auto;
+    margin-left: auto;
     border-radius: 4px;
     background: #1a73e8;
     padding: 10px 25px;
@@ -54,7 +54,7 @@ header {
     position: relative;
 }
 input[type="text"] {
-    padding: 11px 11px 11px 25px;
+    padding: 11px 56px 11px 25px;
     border: 2px #eee solid;
     width: 640px;
     border-radius: 22px;
