@@ -17,21 +17,22 @@ main {
     margin: 0 0 30px 170px;
 }
 h1.logo {
-    margin-top: 7px;
+    margin-right: 27px;
 }
 .logo img {
     width: 90px;
 }
 header {
     display: flex;
+    align-items: flex-end;
     margin: 20px 28px 40px 20px;
 }
 .button {
     margin: 0 0 0 auto;
     border-radius: 4px;
-    background: rgb(26, 115, 232);
+    background: #1a73e8;
     padding: 10px 25px;
-    color: #ffffff;
+    color: #fff;
 }
 .button:hover {
     text-decoration: none;
@@ -47,15 +48,14 @@ header {
     top: 15px;
     left: 600px;
     color: #4285F4;
-    font-size: 120%;
+    font-size: 16px;
 }
 .form-container {
     position: relative;
-    margin-left: 27px;
 }
 input[type="text"] {
     padding: 11px 11px 11px 25px;
-    border: 2px #eeeeee solid;
+    border: 2px #eee solid;
     width: 640px;
     border-radius: 22px;
     font-size: 16px;
