@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+}
+main {
+    margin: 0 0 30px 170px;
+}
+h1.logo {
+    margin-right: 27px;
+}
+.logo img {
+    width: 90px;
+}
+header {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 28px 40px 20px;
+}
+.button {
+    margin-left: auto;
+    border-radius: 4px;
+    background: #1a73e8;
+    padding: 10px 25px;
+    color: #fff;
+}
+.button:hover {
+    text-decoration: none;
+}
+.pcaret {
+    display: flex;
+}
+.fa-caret-down {
+    margin: 1px 0 0 7px;
+}
+.fa-search {
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    color: #4285F4;
+    font-size: 16px;
+}
+.form-container {
+    position: relative;
+}
+input[type="text"] {
+    padding: 11px 56px 11px 25px;
+    border: 2px #eee solid;
+    width: 640px;
+    border-radius: 22px;
+    font-size: 16px;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+    box-shadow: 0 2px 5px 0 rgba(60, 63, 67, 0.18);
+}
+:focus {
+    outline: none;
+}
+section {
+    width: 600px;
+    margin-bottom: 27px;
+}
+.psml a {
+    color: #3C4043
+}
+.psml a:hover {
+    text-decoration: none;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+h2 a {
+    color: #190DAB;
+}
+h2 a:visited {
+    color: #660099;
+}
+h2.h2bottom {
+    margin-bottom: 20px;
+}
+.s-bottom-flex {
+    display: flex;
+}
+.s-bottom-flex ul:first-of-type {
+    margin-right: 32px;
+}
+.s-bottom-ul li {
+    padding:3px 0;
+}
+footer {
+    padding-left: 170px;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+.foot-list {
+    display: flex;
+}
+.foot-list li {
+    padding-right: 27px;
+}
+.foot-list a {
+    color: #5f6368;
+}
